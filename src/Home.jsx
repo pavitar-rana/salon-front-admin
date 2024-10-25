@@ -38,10 +38,10 @@ function Home() {
                         <button
                             className="btn btn-primary"
                             onClick={() => {
-                                navigate("/delete-service");
+                                navigate("/all-services");
                             }}
                         >
-                            Delete Services
+                            All Services
                         </button>
                     </div>
                 </div>

@@ -5,7 +5,9 @@ import Home from "./Home";
 import AddStaff from "./AddStaff";
 import AddServices from "./AddServices";
 import DeleteStaff from "./DeleteStaff";
-import DeleteService from "./DeleteService";
+
+import AllServices from "./AllServices";
+import EditService from "./EditService";
 
 function App() {
     return (
@@ -15,7 +17,8 @@ function App() {
                 <Route path="/delete-staff" element={<DeleteStaff />} />
                 <Route path="/add-staff" element={<AddStaff />} />
                 <Route path="/add-services" element={<AddServices />} />
-                <Route path="/delete-service" element={<DeleteService />} />
+                <Route path="/all-services" element={<AllServices />} />
+                <Route path="/edit-service" element={<EditService />} />
             </Routes>
         </>
     );
